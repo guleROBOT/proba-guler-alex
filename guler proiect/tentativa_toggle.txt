@@ -1,0 +1,21 @@
+/*const img = document.getElementById('images');
+let toggle = true;
+image.addEventListener('click', function(){
+	toggle = !toggle;
+	if(toggle){
+		img src = 'images/doberman.jpg';
+	}else{
+		img src = 'images/gigahagi.jpg';
+	}
+
+	img.src = 'images/gigahagi.jpg';
+})
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+function changeImages() {
+    if (document.getElementById("images").src == "images/doberman.jpg"){
+        document.getElementById("images").src = "images/gigahagi.jpg";
+    } else {
+        document.getElementById("images").src = "images/doberman.jpg";
+    }
+}
